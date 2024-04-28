@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+use Framework\CmdHandler;
+
+require_once 'vendor/autoload.php';
+
+$handler = new CmdHandler();
+$handler->catchCommands($argc, $argv);
+
+exit;

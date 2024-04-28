@@ -1,0 +1,19 @@
+{
+    "name": "hp/toko_baju_online",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "framework/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neibreen",
+            "email": "azfaalharits25@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/string": "^6.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
