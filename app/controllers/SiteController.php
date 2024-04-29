@@ -3,12 +3,13 @@
 namespace App\Controllers;
 
 use Framework\Controller;
-use Framework\View;
 
 class SiteController extends Controller
 {
-    public function dashboard()
+    public function home()
     {
-        return View::render();
+        return $this->render('home', [
+            'name' => 'Codereeze'
+        ]);
     }
 }
